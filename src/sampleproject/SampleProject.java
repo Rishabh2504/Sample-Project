@@ -33,7 +33,7 @@ public class SampleProject {
                 System.out.println(rs.getString(3));
             }
         }
-        catch(SQLException ex){
+        catch(Exception ex){
             System.out.println(ex.toString());
         }
         
